@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  padding-top: 4rem;
+}
+.carousel-item {
+  aspect-ratio: 16/9;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 1005;
+}
+
+.table th {
+  border: none;
+  text-align: left;
+  font-size: 20px;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.display-3 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
+
+audio {
+  display: none; /* atau visibility: hidden; */
+}
